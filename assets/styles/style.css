@@ -27,7 +27,7 @@ main {
 }
 
 .area {
-  width: 100%; 
+  width: 100%;
   padding-right: 20px;
   padding-bottom: 10px;
   height: 100px;
@@ -44,7 +44,7 @@ main {
   box-shadow: #e47f7f;
   display: flex;
   gap: 1rem;
-} 
+}
 
 .touch2 {
   box-shadow: #e47f7f;
