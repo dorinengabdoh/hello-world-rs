@@ -1,4 +1,5 @@
 // Dom
+/* eslint no-eval: 0 */
 const touche = [...document.querySelectorAll('.boutton')]
 const listekeycode = touche.map(touch => touch.dataset.key)
 const ecran = document.querySelector('.area')
