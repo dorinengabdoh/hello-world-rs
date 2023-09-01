@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #7fffd423;
+}
+
 main {
   max-width: 100vw;
   height: 100vh;
@@ -23,22 +27,24 @@ main {
 }
 
 .area {
-  width: 100%; 
+  width: 100%;
+  padding-right: 20px;
+  padding-bottom: 10px;
   height: 100px;
   background-color: #4ca875de;
   margin-bottom: 10px;
-  border-radius: 10px;
+  border-radius: 4px;
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .touch1 {
   box-shadow: #e47f7f;
   display: flex;
   gap: 1rem;
-} 
+}
 
 .touch2 {
   box-shadow: #e47f7f;
@@ -61,7 +67,7 @@ main {
   color: #fff;
 }
 
-.boutton1 {
+#boutton1 {
   padding: 10px 55px;
   font-size: 30px;
   border-radius: 10px;
@@ -79,4 +85,8 @@ h1 {
   text-align: center;
   font-size: 35px;
   padding-top: 30px;
+}
+
+#one {
+  background-color: #0e0ededc;
 }
